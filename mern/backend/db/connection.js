@@ -1,6 +1,8 @@
+import { MongoClient, ServerApiVersion } from 'mongodb';
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
-const URI = "mongodb+srv://udaybadola:Udaybadola@1234@mernapp.h3iax.mongodb.net/?retryWrites=true&w=majority&appName=mernApp";
+
+const URI = "mongodb+srv://udaybadola:Udaybadola%401234@mernapp.h3iax.mongodb.net/?retryWrites=true&w=majority&appName=mernApp";
+
 const client = new MongoClient(URI, {
   serverApi: {
     version: ServerApiVersion.v1,
