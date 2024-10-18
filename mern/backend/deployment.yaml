@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mern-backend
-        image: myacrname123.azurecr.io/mern-backend:latest  # Replace with your actual ACR name
+        image: udaybadola/mern-backend:latest
         ports:
         - containerPort: 5050
         env:
